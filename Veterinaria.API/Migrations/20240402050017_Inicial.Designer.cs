@@ -12,8 +12,8 @@ using Veterinaria.API.Data;
 namespace Veterinaria.API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240321143913_EntitiesFullWithAgenda")]
-    partial class EntitiesFullWithAgenda
+    [Migration("20240402050017_Inicial")]
+    partial class Inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
