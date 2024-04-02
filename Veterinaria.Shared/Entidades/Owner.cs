@@ -37,5 +37,7 @@ namespace Veterinaria.Shared.Entidades
         public string Address { get; set; }
         public string FullName => $"{FirstName}{LastName}";
 
+        public ICollection<Agenda> Agendas { get; set; }
+
     }
 }
